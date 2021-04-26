@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "no-async-promise-executor": ["off"],
+    "no-empty-pattern": ["off"],
+    "no-undef": ["error"],
+    "no-var": ["error"],
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "semi": ["error", "always"],
+    "spaced-comment": ["off"],
+    "no-prototype-builtins": ["off"],
+    "sort-keys": ["off"],
+    "space-before-function-paren": ["off"],
+    "indent": ["off"],
+    "camelcase": ["off"]
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": ["airbnb-typescript/base","plugin:prettier/recommended"]
+}
